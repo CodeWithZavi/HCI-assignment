@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Client Reviews – NH Fitness</title>
+    <meta name="description" content="Read client reviews for NH Fitness from Siraj, Noman, and Ali." />
+    <meta name="theme-color" content="#00A3FF" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu"
+                    aria-label="Toggle navigation">
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                </button>
+                <ul id="navMenu" class="nav__menu">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="services.html" class="nav__link">Services</a></li>
+                    <li><a href="about.html" class="nav__link">About Us</a></li>
+                    <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+                    <li><a href="reviews.html" class="nav__link active" aria-current="page">Review</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn--primary header__cta">Join Us</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section reviews" aria-labelledby="reviews-title">
+            <div class="container">
+                <h1 id="reviews-title" class="section__title">Client Reviews</h1>
+                <div class="carousel reveal" data-autoplay="true">
+                    <button class="carousel__control prev" aria-label="Previous review">‹</button>
+                    <div class="carousel__viewport" role="region" aria-roledescription="carousel"
+                        aria-label="Client reviews">
+                        <div class="carousel__track">
+                            <article class="card testimonial">
+                                <div class="testimonial__profile">
+                                    <img src="Image/1.jpg" alt="Siraj profile" loading="lazy" decoding="async" />
+                                    <span class="name">Siraj</span>
+                                </div>
+                                <div class="testimonial__rating" aria-label="5 out of 5 stars">
+                                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                                </div>
+                                <p class="testimonial__text">NH Fitness completely changed my routine. The coaches
+                                    pushed me the right way and my strength numbers are up every week.</p>
+                            </article>
+                            <article class="card testimonial">
+                                <div class="testimonial__profile">
+                                    <img src="Image/2.jpg" alt="Noman profile" loading="lazy" decoding="async" />
+                                    <span class="name">Noman</span>
+                                </div>
+                                <div class="testimonial__rating" aria-label="4 out of 5 stars">
+                                    <span>★</span><span>★</span><span>★</span><span>★</span><span class="muted">☆</span>
+                                </div>
+                                <p class="testimonial__text">Great environment and well-maintained equipment. I dropped
+                                    body fat and feel more energetic during cricket practice.</p>
+                            </article>
+                            <article class="card testimonial">
+                                <div class="testimonial__profile">
+                                    <img src="Image/3.jpg" alt="Ali profile" loading="lazy" decoding="async" />
+                                    <span class="name">Ali</span>
+                                </div>
+                                <div class="testimonial__rating" aria-label="5 out of 5 stars">
+                                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                                </div>
+                                <p class="testimonial__text">Best gym vibes in town! The programming is on point and the
+                                    trainers actually correct your form. Highly recommend.</p>
+                            </article>
+                        </div>
+                    </div>
+                    <button class="carousel__control next" aria-label="Next review">›</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <ul class="social">
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            </ul>
+            <p class="muted">© <span id="year"></span> NH Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

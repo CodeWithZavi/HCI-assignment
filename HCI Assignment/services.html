@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services – NH Fitness</title>
+    <meta name="description"
+        content="Explore NH Fitness services: physical fitness, weight gain, strength, fat loss, weightlifting, and running programs." />
+    <meta name="theme-color" content="#00A3FF" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu"
+                    aria-label="Toggle navigation">
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                </button>
+                <ul id="navMenu" class="nav__menu">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="services.html" class="nav__link active" aria-current="page">Services</a></li>
+                    <li><a href="about.html" class="nav__link">About Us</a></li>
+                    <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+                    <li><a href="reviews.html" class="nav__link">Review</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn--primary header__cta">Join Us</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section services" aria-labelledby="services-title">
+            <div class="container">
+                <h1 id="services-title" class="section__title">Our <span class="accent">Services</span></h1>
+                <div class="services__grid">
+                    <article class="card service reveal">
+                        <img src="Image/image1.jpg" alt="Physical fitness - weight training" loading="lazy"
+                            decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Physical Fitness</h2>
+                            <p class="card__desc">Build functional strength and endurance with tailored workouts.</p>
+                        </div>
+                    </article>
+                    <article class="card service reveal">
+                        <img src="Image/image2.jpg" alt="Weight gain program - gym equipment" loading="lazy"
+                            decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Weight Gain</h2>
+                            <p class="card__desc">Structured hypertrophy plans to add lean mass effectively.</p>
+                        </div>
+                    </article>
+                    <article class="card service reveal">
+                        <img src="Image/image3.jpg" alt="Strength training with battle ropes" loading="lazy"
+                            decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Strength Training</h2>
+                            <p class="card__desc">Progressive overload methods to maximize strength safely.</p>
+                        </div>
+                    </article>
+                    <article class="card service reveal">
+                        <img src="Image/image4.jpg" alt="Fat loss - cardio running" loading="lazy" decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Fat Loss</h2>
+                            <p class="card__desc">Scientifically-backed protocols to shed fat and keep it off.</p>
+                        </div>
+                    </article>
+                    <article class="card service reveal">
+                        <img src="Image/image5.jpg" alt="Weightlifting - deadlift" loading="lazy" decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Weightlifting</h2>
+                            <p class="card__desc">Technique-focused lifting to build power and confidence.</p>
+                        </div>
+                    </article>
+                    <article class="card service reveal">
+                        <img src="Image/image6.jpg" alt="Running - treadmill" loading="lazy" decoding="async" />
+                        <div class="card__body">
+                            <h2 class="card__title">Running</h2>
+                            <p class="card__desc">Improve pace, stamina, and recovery with expert guidance.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <ul class="social">
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            </ul>
+            <p class="muted">© <span id="year"></span> NH Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

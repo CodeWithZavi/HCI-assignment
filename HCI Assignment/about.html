@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us – NH Fitness</title>
+    <meta name="description"
+        content="Learn why people choose NH Fitness: expert trainers, inclusive community, guided sessions, and supportive management." />
+    <meta name="theme-color" content="#00A3FF" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <nav class="nav" aria-label="Primary">
+                <button class="nav__toggle" aria-expanded="false" aria-controls="navMenu"
+                    aria-label="Toggle navigation">
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                    <span class="nav__bar"></span>
+                </button>
+                <ul id="navMenu" class="nav__menu">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="services.html" class="nav__link">Services</a></li>
+                    <li><a href="about.html" class="nav__link active" aria-current="page">About Us</a></li>
+                    <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+                    <li><a href="reviews.html" class="nav__link">Review</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn--primary header__cta">Join Us</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="section why" aria-labelledby="why-title">
+            <div class="container why__grid">
+                <div class="why__media reveal">
+                    <img src="Image/about.jpg" alt="Modern gym with cardio equipment" loading="lazy" decoding="async" />
+                </div>
+                <div class="why__content reveal">
+                    <h1 id="why-title" class="section__title">Why Choose Us?</h1>
+                    <ul class="why__list">
+                        <li>Diverse membership community and inclusive environment</li>
+                        <li>Expert trainers focused on your goals and safety</li>
+                        <li>Guided practice sessions and progress tracking</li>
+                        <li>Supportive management and flexible schedules</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn--secondary">Book A Free Class</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a href="index.html" class="brand" aria-label="NH Fitness Home">
+                <span class="brand__royal">NH</span>
+                <span class="brand__fitness">Fitness</span>
+            </a>
+            <ul class="social">
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+            </ul>
+            <p class="muted">© <span id="year"></span> NH Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
